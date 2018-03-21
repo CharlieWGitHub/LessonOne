@@ -30,8 +30,11 @@ class MainViewController: UIViewController {
         print("get some app infomation")
     }
     func push(){
-        
         print("123")
+    }
+    func secondMaste() {
+        print("secondMater")
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
