@@ -22,11 +22,16 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     func getsomethingforNet(){
+        
         print("get some thing")
     }
-
     func getApp() {
+        
         print("get some app infomation")
+    }
+    func push(){
+        
+        print("123")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
