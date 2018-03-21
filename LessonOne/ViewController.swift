@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         creatIconImage()
         //打印APP信息
         creatBundleInfomation()
-        
         //在顶端显示风火轮
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         

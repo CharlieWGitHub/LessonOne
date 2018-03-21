@@ -14,6 +14,7 @@
 		DF1409B7201EBDF300DFE5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1409B5201EBDF300DFE5CE /* LaunchScreen.storyboard */; };
 		DF1409C2201EBDF300DFE5CE /* LessonOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1409C1201EBDF300DFE5CE /* LessonOneTests.swift */; };
 		DF1409CD201EBDF300DFE5CE /* LessonOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1409CC201EBDF300DFE5CE /* LessonOneUITests.swift */; };
+		DF42ADAA2061E6CC0082FA64 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42ADA92061E6CC0082FA64 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DF1409C8201EBDF300DFE5CE /* LessonOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1409CC201EBDF300DFE5CE /* LessonOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOneUITests.swift; sourceTree = "<group>"; };
 		DF1409CE201EBDF300DFE5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF42ADA92061E6CC0082FA64 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DF1409AC201EBDF300DFE5CE /* AppDelegate.swift */,
 				DF1409AE201EBDF300DFE5CE /* ViewController.swift */,
+				DF42ADA92061E6CC0082FA64 /* MainViewController.swift */,
 				DF1409B0201EBDF300DFE5CE /* Main.storyboard */,
 				DF1409B3201EBDF300DFE5CE /* Assets.xcassets */,
 				DF1409B5201EBDF300DFE5CE /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF42ADAA2061E6CC0082FA64 /* MainViewController.swift in Sources */,
 				DF1409AF201EBDF300DFE5CE /* ViewController.swift in Sources */,
 				DF1409AD201EBDF300DFE5CE /* AppDelegate.swift in Sources */,
 			);
