@@ -32,9 +32,11 @@ class MainViewController: UIViewController {
     func push(){
         print("123")
     }
+
+    //    修改这个方法
     func secondMaste() {
+        print("change")
         print("secondMater")
-        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
