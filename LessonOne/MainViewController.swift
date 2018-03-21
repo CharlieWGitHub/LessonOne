@@ -14,12 +14,19 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         print("hello world")
-        
+//        tag1.0
         getsomethingforNet()
+//        tag2.0
+        getApp()
+        
         // Do any additional setup after loading the view.
     }
     func getsomethingforNet(){
         print("get some thing")
+    }
+
+    func getApp() {
+        print("get some app infomation")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
